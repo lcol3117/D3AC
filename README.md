@@ -3,9 +3,9 @@ Delta Density Distance Agglomerative Clustering
 
 # Use
 
-import D3AC
+`import D3AC`
 
-D3AC.cluster(data,w)
+`result=D3AC.cluster(data,w)`
 
 *w is the only hyperparameter*
 
