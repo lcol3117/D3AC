@@ -29,7 +29,7 @@ def cluster(data,w):
         clusters[data.index(p1)].append(p2)
     print("FOR POINT {}, NEIGHBOURS ARE AS FOLLOWS: ".format(str(p1)))
     print(clusters[data.index(p1)])
-    clusters[data.index(p1)].append(p)
+    clusters[data.index(p1)].append(p1)
   for i in range(len(clusters)):
     clusters[i]=sorted(clusters[i])[:]
   print(clusters)
